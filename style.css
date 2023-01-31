@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 17px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.logo,
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    float: right
+}
+
+.menu .menu-list .menu-list-item {
+    display: inline;
+}
+
+.menu .menu-list .menu-list-item .menu-list-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    vertical-align: middle;
+}
+
+.menu .menu-list .menu-list-item .menu-list-link:hover,
+.active {
+    background-color: #444;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url('images/frame.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .hero-content {
+    width: 550px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.hero .hero-content .hero-title {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.separator {
+    width: 100px;
+    height: 10px;
+    background-color: #333;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.hero .hero-content .hero-text {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    letter-spacing: .031em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.infos-cup,
+.infos-clock {
+    display: inline-block;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.infos-content {
+    width: 700px;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.infos-content .bi {
+    font-size: 2.2em;
+}
+
+.infos-content h3 {
+    font-size: 1.6em;
+}
